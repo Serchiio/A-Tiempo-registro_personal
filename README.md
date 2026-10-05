@@ -15,6 +15,32 @@ Cada release trae un archivo `SHA256SUMS.txt` para comprobar que la descarga no 
 
 > Si Windows muestra el aviso de SmartScreen, pulsa **Más información › Ejecutar de todas formas**.
 
+## Así se ve
+
+*Capturas con datos de ejemplo (empleados inventados).*
+
+<p align="center">
+  <img src="docs/capturas/01_menu_principal.png" width="320" alt="Menú principal">
+  &nbsp;
+  <img src="docs/capturas/06_menu_principal_oscuro.png" width="320" alt="Menú principal en modo oscuro">
+</p>
+
+**Registrar entrada y salida** con lector de código de barras, tarjeta RFID o de forma manual:
+
+<p align="center"><img src="docs/capturas/02_registrar_entrada_salida.png" width="560" alt="Registrar entrada y salida"></p>
+
+**Llegadas tarde**, con la compensación de cada una: las que ya se compensaron salen atenuadas y con ✓, y lo pendiente se distingue de un vistazo:
+
+<p align="center"><img src="docs/capturas/03_llegadas_tarde.png" width="760" alt="Llegadas tarde"></p>
+
+**Control del día**: quién falta por marcar, con opción de resolver, registrar la marca o imprimir:
+
+<p align="center"><img src="docs/capturas/04_pendientes_del_dia.png" width="620" alt="Pendientes del día"></p>
+
+**Configuración** por categorías: horario, márgenes, festivos, marcación, reportes, respaldos y apariencia:
+
+<p align="center"><img src="docs/capturas/05_configuracion.png" width="640" alt="Configuración"></p>
+
 ## Qué hace
 
 - **Marcación** de entrada y salida por código, código de barras, lector RFID o número de identificación, con foto opcional y confirmación por voz.
