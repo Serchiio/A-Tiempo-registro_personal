@@ -66,6 +66,10 @@ Claro, oscuro, **alto contraste** (para leer sin esfuerzo) o **personalizado** c
 
 <p align="center"><img src="docs/capturas/17_gestionar_empleados.png" width="620" alt="Gestionar empleados">&nbsp;<img src="docs/capturas/18_editar_registro.png" width="620" alt="Editar registro"></p>
 
+**Cerrar el período y generar el reporte**: el reporte se genera en dos pasos (de qué período y qué quieres en el Excel), con un aviso de color que dice si el reporte cierra el período. Antes de generar, el programa avisa de lo que sigue sin resolver y de las **horas extra por pagar**: quién las tiene y, de una vez, se dan por pagadas o se dejan abiertas para el siguiente período (donde se pueden seguir usando para compensar):
+
+<p align="center"><img src="docs/capturas/21_generar_reporte.png" width="520" alt="Generar reporte">&nbsp;<img src="docs/capturas/22_horas_extra_por_pagar.png" width="520" alt="Horas extra por pagar al cerrar el período"></p>
+
 **Estadísticas** para ver cómo va el personal de un vistazo: puntualidad, llegadas tarde, horas extra y ausencias:
 
 <p align="center"><img src="docs/capturas/19_estadisticas.png" width="760" alt="Estadísticas"></p>
@@ -78,7 +82,8 @@ Claro, oscuro, **alto contraste** (para leer sin esfuerzo) o **personalizado** c
 
 - **Marcación** de entrada y salida por código, código de barras, lector RFID o número de identificación, con foto opcional y confirmación por voz.
 - **Pendientes del día** por turno: marcas que faltan, cambios de turno, llegadas muy temprano, salidas con motivo y jornadas incompletas.
-- **Decisiones con una persona al mando:** el tiempo que no se cubrió se justifica, se descuenta o se compensa con horas extra, siempre eligiéndolo alguien, con el motivo anotado.
+- **Decisiones con una persona al mando:** el tiempo que no se cubrió se justifica, se descuenta o se compensa con horas extra (del período anterior o del actual), siempre eligiéndolo alguien, con el motivo anotado.
+- **Cierre de período:** al generar el reporte avisa de lo pendiente y de las horas extra por pagar, que se dan por pagadas o se dejan abiertas para el siguiente período.
 - **Turnos fijos, rotativos y de apoyo**, con detección del cambio de turno según la hora de llegada.
 - **Editar registro** para corregir o completar las marcas de un empleado.
 - **Ausencias** (vacaciones, incapacidades, permisos por horas y otras) con avisos en la campanita.
@@ -87,7 +92,7 @@ Claro, oscuro, **alto contraste** (para leer sin esfuerzo) o **personalizado** c
 - **Estadísticas** de puntualidad, horas extra y ausencias.
 - **Gestión de empleados** y turnos.
 - **Respaldos automáticos** y copias externas (USB o nube), con restauración guiada.
-- Temas claro, oscuro, de alto contraste y personalizado, color de acento y tamaño de letra ajustable.
+- Temas claro, oscuro, de alto contraste y personalizado, color de acento y tamaño de letra ajustable. Las ventanas se abren centradas en la pantalla y se ajustan a su alto.
 - Se **repara solo** si la base de datos viene de una versión vieja, y avisa si falta o se dañó.
 
 ## Instalación y actualización
